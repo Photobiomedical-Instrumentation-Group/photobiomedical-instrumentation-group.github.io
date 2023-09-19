@@ -1,0 +1,49 @@
+baseURL = 'https://photobiomedical-instrumentation-group.github.io/'
+languageCode = 'en-us'
+title = 'Photobiomedical Instrumentation Group (PhIG)'
+theme = "mainroad"
+
+[Author] # Used in authorbox
+	name = "Photobiomedical Instrumentation Group (PhIG)"
+	bio = """
+	Research group focused on developing diagnostical instruments and
+	techniques using digital multispectral optics. Located at the Department of
+	Physics - FFCLRP - University of São Paulo, Ribeirão Preto campus
+	"""
+	avatar = "img/phig-icon.png"
+
+[Params]
+	description = "Photobiomedical Instrumentation Group's homepage" # Site description. Used in meta description
+	copyright = "George Cunha Cardoso" # Footer copyright holder, otherwise will use site title
+	opengraph = true # Enable OpenGraph if true
+	schema = true # Enable Schema
+	twitter_cards = false # Enable Twitter Cards if true
+	readmore = false # Show "Read more" button in list if true
+	authorbox = true # Show authorbox at bottom of pages if true
+	toc = true # Enable Table of Contents
+	pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+	post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+	mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+	dateformat = "02-01-2006" # Change the format of dates
+	mathjax = true # Enable MathJax
+	mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+	mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+	googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+	customCSS = ["css/custom.css"] # Include custom CSS files
+	customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.logo]
+	image = "img/phig-icon.png" # Logo image. Path relative to "static"
+	title = "PhIG" # Logo title, otherwise will use site title
+	subtitle = """
+	Photobiomedical Instrumentation Group
+	"""
+
+[Params.style.vars]
+	highlightColor = "#0077bb" # Override highlight color
+
+# Override font-family sets
+# Take care of different quotes OR escaping symbols in these params if necessary
+	fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+# Secondary font-family set responsible for pre, code, kbd, and samp tags font
+	fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
