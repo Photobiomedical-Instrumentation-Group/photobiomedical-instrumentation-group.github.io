@@ -39,7 +39,7 @@ por
 height="3.7043in"}
 
 O principal software utilizado para todo o processamento de imagens, que
-neste documento inclui principalmente leitura, gravação e compressão de
+neste documento inclui leitura, gravação e compressão de
 imagens, e conversões entre diferentes espaços de cor, foi a biblioteca
 OpenCV (versão 3.4) para Python.
 
